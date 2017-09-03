@@ -1,6 +1,8 @@
 # Requirements
 ```
 docker-toolbox https://www.docker.com/products/docker-toolbox
+android-studio
+androidSDK
 ```
 
 # Install development platform 

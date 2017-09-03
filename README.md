@@ -18,6 +18,6 @@ cd playkubo-app
 react-native start
 # Get your docker-machine ip
 docker-machine ip
-# Check your
+# Check your react-native packager from host machine
 http://#{DOCKER_MACHINE_IP}:8081
 ```

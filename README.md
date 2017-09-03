@@ -8,7 +8,7 @@ docker-toolbox https://www.docker.com/products/docker-toolbox
 git clone https://github.com/freedomson/playkubo-docker.git
 cd playkubo-docker
 docker build -f Dockerfile .
-docker run -dit -p 8081:8081 #{IMAGE_ID}
+docker run -dit -p 8081:8081 --name playkubo #{IMAGE_ID}
 docker ps -a
-docker attach #{CONTAINER_ID}
+docker attach playkubo
 ```

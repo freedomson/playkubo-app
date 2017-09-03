@@ -1,3 +1,8 @@
+# Requirements
+```
+docker
+```
+
 # Install development platform 
 ```
 git clone https://github.com/freedomson/playkubo-docker.git

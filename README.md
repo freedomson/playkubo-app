@@ -9,7 +9,7 @@ git clone https://github.com/freedomson/playkubo-docker.git
 cd playkubo-docker
 # TODO: Push a proper docker image to dockerhub.com
 docker build -f Dockerfile .
-docker run -dit -p 8081:8081 --name playkubo #{IMAGE_ID}
+docker run -dit -v #{HOST_FOLDER}:/host-map-folder -p 8081:8081 --name playkubo #{IMAGE_ID}
 ```
 # Run react-native packager
 ```

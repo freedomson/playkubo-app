@@ -1,6 +1,6 @@
 # Requirements
 ```
-docker
+docker https://www.docker.com/products/docker-toolbox
 ```
 
 # Install development platform 
